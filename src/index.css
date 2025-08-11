@@ -8,3 +8,15 @@ body {
   min-height: 100vh;
 }
 
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.content {
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+  max-height: 0;
+  color: #8b7f75;
+}
